@@ -1,0 +1,55 @@
+
+:root{
+--dark-blue : hsl(217, 28%, 15%);
+--dark-blue-main : hsl(218, 28%, 13%);
+--dark-blue-footer: hsl(216, 53%, 9%);
+--dark-blue-testimonials: hsl(219, 30%, 18%);
+
+--open-sans: 'Open Sans', sans-serif;
+--raleway: 'Raleway', sans-serif;
+
+--light:white;
+
+font-size: 14px;
+}
+body{
+    background: var(--dark-blue);
+    color: var(--light);
+    font-family: var(--open-sans);
+    margin: 0;
+}
+
+.header{
+    
+}
+.header-grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border: 1px solid red;
+    height:50px ;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+.menu a {
+    padding: 1em;
+    color:var(--light);
+    text-decoration: none;
+    font-family: var(--raleway);
+    border: 1px solid red;
+    font-size: 1em;
+}
+
+.wrapper{
+
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
