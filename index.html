@@ -11,6 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <link href="/fontawesome-free-5.5.0-web/css/all.min.css" rel="stylesheet">
+  <link href="/fontawesome-free-5.5.0-web/css/brands.min.css" rel="stylesheet">
+  <link href="/fontawesome-free-5.5.0-web/css/solid.min.css" rel="stylesheet">
+  
 </head>
 <body>
   <header class="header">
@@ -52,7 +57,8 @@
     </section >
 
     <section class="features">
-      <div class="u-wrapper">
+      <div class="wrapper">
+
               <div class="features-grid">
 
                 <article class="feature-item">
@@ -91,19 +97,25 @@
 
     <section class="productive">
       <div class="wrapper">
-        <img src="./static/img/illustration-stay-productive.png" alt="">
-        <h2>
-          Stay productive, wherever you are
-        </h2>
-        <p>
-          Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-          storage needs.
-        </p>
-        <p>
-          Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-          attachments required.
-        </p>
-        <a href="#">See how Fylo works</a>
+        
+        <div class="productive-grid">
+          <img src="./static/img/illustration-stay-productive.png" alt="">
+          <div>
+            <h2>
+            Stay productive, wherever you are
+          </h2>
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+            storage needs.
+          </p>
+          <p>
+            Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+            attachments required.
+          </p>
+          <a href="#">See how Fylo works</a>
+          </div>     
+        </div>
+        
       </div>
  
     </section>
@@ -176,40 +188,39 @@
     </section>
 
     <footer class="footer">
-      <div class="wrapper">
-        <div class="footer-grid">
-          
-          <img src="./static/img/logo.svg" alt="">
-          
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-          dolore magna aliqua
-          </p>
-
-          <p>
-            +1-543-123-4567
-          </p>
-          
-          <p>
-            example@fylo.com
-          </p>
-
-          
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#"> Blog</a></li>
-          </ul>
-          
-          <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Privacy</a></li>
-          </ul>
-        </div>
+      <div class="wrapper">  
+        <img src="./static/img/logo.svg" alt="">
+        <div class="footer-grid">          
+            
+              <p class="locations">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+               dolore magna aliqua
+              </p>
+           <div class="footer-contact">
+              <p class="phone"> +1-543-123-4567</p>            
+              <p class="email">example@fylo.com </p>
+            </div>
+            
+            
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#"> Blog</a></li>
+            </ul>
+            
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+            </ul>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>          
       </div>
-      
 
     </footer>
 
