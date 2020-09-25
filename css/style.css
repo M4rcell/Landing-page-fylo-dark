@@ -26,8 +26,8 @@ body{
 .header-grid{
     display: grid;
     grid-template-columns: auto 1fr;
-    border: 1px solid red;
-    height:50px ;
+/*     border: 1px solid red;
+ */    height:50px ;
     align-items: center;
 }
 
@@ -42,8 +42,8 @@ body{
     color:var(--light);
     text-decoration: none;
     font-family: var(--raleway);
-    border: 1px solid red;
-    font-size: 1em;
+/*     border: 1px solid red;
+ */    font-size: 1em;
 }
 
 .wrapper{
@@ -76,8 +76,8 @@ h1{
 }
 
 .hero-grid{
-    border: 1px solid red;
-    max-width: 700px;
+/*     border: 1px solid red;
+ */    max-width: 700px;
     margin: 0 auto;
 }
 .buttom{
@@ -99,7 +99,7 @@ h1{
 }
 
 .feature-item{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
    /*  margin: 0 -10px; */
 }
@@ -165,7 +165,7 @@ h1{
 
  
  .review-detail {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     text-align: center;
 }
@@ -311,7 +311,7 @@ h1{
         align-items: center;
     }
     .feature-item{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         max-width: 400px;
         margin: 0 auto;
     }
@@ -330,7 +330,7 @@ h1{
     }
     .form form {
         margin-top: 2em;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .form input{
         margin: 0;
@@ -359,7 +359,7 @@ h1{
 
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1124px){
 
     .footer-grid{
         display: grid;
