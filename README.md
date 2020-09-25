@@ -2,7 +2,7 @@
 
 En Desktop
 <hr>
-   <img height=1000"  width="500" src="https://github.com/M4rcell/Landing-page-fylo-dark/blob/master/design/desktop-design.jpg" alt=""> 
+   <img height=1500"  width="800" src="https://github.com/M4rcell/Landing-page-fylo-dark/blob/master/design/desktop-design.jpg" alt=""> 
  
 En Mobile
 <hr>
