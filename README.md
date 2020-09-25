@@ -11,5 +11,5 @@
 
 
 <h3>En Mobile</h3>
-<img height="3000"  width="300" src="https://github.com/M4rcell/Landing-page-fylo-dark/blob/master/design/mobile-design.jpg" alt="">
+<img height="3000"  width="200" src="https://github.com/M4rcell/Landing-page-fylo-dark/blob/master/design/mobile-design.jpg" alt="">
 
